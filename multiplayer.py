@@ -1,6 +1,5 @@
 import time
 players = int(input("כמה שחקנים יש במשחק?\n"))
-
 while players > 0:
     print("שחקן מספר:", players)
     def new_game():
@@ -100,6 +99,7 @@ while players > 0:
                ["A. עבר", "B. הווה", "C. עתיד", "D.לא יודע"]]
 
     new_game()
+    break
 
 while play_again():
     new_game()
